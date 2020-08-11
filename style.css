@@ -1,9 +1,33 @@
-h1 {
-  background-color: blue;
+body {
+  margin: 0;
+  padding: 0;
+  height: 150vh;
 }
-p {
-  font-size: 2rem;
+
+.img-content {
+  margin: auto 2%;
+  /* margin-left: 20px ; */
 }
-.red {
-  font-size: 3rem;
+.nav-bar {
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  background-color: yellow;
 }
+
+.search {
+  display: inline;
+  margin: 20% 35%;
+}
+
+/*  */
+/* h1 { */
+/* background-color: blue; */
+/* } */
+/* p { */
+/* font-size: 2rem; */
+/* } */
+/* .red { */
+/* font-size: 3rem; */
+/* } */
+/*  */
