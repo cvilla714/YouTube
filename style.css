@@ -6,51 +6,68 @@ body {
 
 .nav-bar {
   position: fixed;
-  height: 10vh;
+  height: 8vh;
   width: 100%;
-  background-color: pink;
+  background: linear-gradient(to right, #81bae6, yellow);
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   width: 100%;
   margin-top: 1%;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
 }
 
-.item1{
+.item1 {
   padding-left: 2%;
 }
 
-.grid-item2{
- text-align: center;
+.grid-item2 {
+  text-align: center;
 }
 
-.txt{
-width: 80%;
-height: 80%;
-}
-
-.btn{
+.txt {
+  width: 80%;
   height: 80%;
 }
 
+.btn {
+  height: 80%;
+}
 
-.grid-item3{
+.grid-item3 {
   text-align: right;
- }
+}
 
-.icon1{
+.icon1 {
   margin-right: 7%;
 }
 
-.icon2{
+.icon2 {
   margin-right: 7%;
 }
 
-.icon3{
+.icon3 {
   margin-right: 7%;
 }
 
+.main-container {
+  display: grid;
+  margin-top: 5%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 70%;
+}
 
+.video-container {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: grid;
+  /* justify-content: center; */
+  /* align-content: center; */
+  height: auto;
+  width: auto;
+}
