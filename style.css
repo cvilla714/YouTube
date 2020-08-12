@@ -80,3 +80,7 @@ h1,
 p {
   color: #030303;
 }
+p {
+  display: inline;
+  margin-right: 75%;
+}
