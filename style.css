@@ -150,8 +150,26 @@ p {
   height: 10%;
 }
 
+.avatar-container {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.lineup {
+  display: inline;
+  float: right;
+  margin-right: 55%;
+}
+
 .avatr {
-  position: absolute;
   border-radius: 70%;
   margin-left: 2%;
+}
+.subscribe {
+  float: right;
+  background-color: red;
+  border: 2px solid black;
+  padding: 2%;
+  color: white;
 }
