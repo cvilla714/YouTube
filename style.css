@@ -82,7 +82,7 @@ p {
 }
 p {
   display: inline;
-  margin-right: 56%;
+  margin-right: 49%;
 }
 
 .ic-container{
@@ -90,15 +90,42 @@ p {
 }
 
 .like{
-  margin-right: 1%;
+  margin-right: 20%;
 }
 
 .dislike{
-  margin-right: 1%;
+  margin-right: 20%;
   margin-left: 3%;
 }
 
 .share{
-  margin-left: 3%;
-  margin-right: 1%;
+  margin-right: 20%;
+}
+
+.tooltip {
+  position: relative;
+  width: 10%;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
