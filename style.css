@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 150vh;
+  background-color: #f9f9f9c2;
 }
 
 .nav-bar {
@@ -85,20 +86,20 @@ p {
   margin-right: 49%;
 }
 
-.ic-container{
+.ic-container {
   display: inline;
 }
 
-.like{
+.like {
   margin-right: 20%;
 }
 
-.dislike{
+.dislike {
   margin-right: 20%;
   margin-left: 3%;
 }
 
-.share{
+.share {
   margin-right: 20%;
 }
 
@@ -117,7 +118,7 @@ p {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  
+
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -128,4 +129,23 @@ p {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.thumbnail-container {
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.thumbnail-item {
+  height: 20%;
+}
+.thubnail-videos {
+  float: left;
+  margin-left: 3%;
+}
+.pclass {
+  width: 15%;
+  height: 10%;
 }
