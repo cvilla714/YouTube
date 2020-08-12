@@ -4,7 +4,7 @@
 
 YouTube Clone
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 Additional description about the project and its features.
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://cvilla714.github.io/YouTube/)
 
 ## Getting Started
 
@@ -41,15 +41,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/cvilla714)
+- Twitter: [@twitterhandle](https://twitter.com/kckeyti)
+- Linkedin: [linkedin](https://www.linkedin.com/in/cosmel-villalobos-1900531aa/)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/hamayun-cpu)
+- Twitter: [@twitterhandle](https://twitter.com/hamayun_waheed?s=09&fbclid=IwAR0rfO9cMDDeCX8LfXf4cCNQDrL4LpJ02Q2csWhcT-VtMQ0Cy9EgTB4Wq8E)
+- Linkedin: [linkedin](https://www.linkedin.com/in/hamayun-waheed-3527381b2/)
 
 ## 🤝 Contributing
 
