@@ -71,3 +71,12 @@ body {
   height: auto;
   width: auto;
 }
+.video-details {
+  margin-bottom: 13%;
+  height: 50%;
+}
+
+h1,
+p {
+  color: #030303;
+}
