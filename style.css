@@ -82,5 +82,23 @@ p {
 }
 p {
   display: inline;
-  margin-right: 75%;
+  margin-right: 56%;
+}
+
+.ic-container{
+  display: inline;
+}
+
+.like{
+  margin-right: 1%;
+}
+
+.dislike{
+  margin-right: 1%;
+  margin-left: 3%;
+}
+
+.share{
+  margin-left: 3%;
+  margin-right: 1%;
 }
