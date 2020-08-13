@@ -4,7 +4,9 @@
 
 YouTube Clone
 
-![screenshot](./screenshot.png)
+
+
+![screenshot](https://raw.githubusercontent.com/cvilla714/YouTube/mediaham/screenshot.PNG)
 
 Additional description about the project and its features.
 
