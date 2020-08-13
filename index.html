@@ -14,7 +14,7 @@
   <body>
     <nav class="nav-bar">
       <div class="grid-container">
-        <div>
+        <div class="grid-item1">
           <img src="youtube1.png" class="item1" alt="youtube image" />
         </div>
 
@@ -39,7 +39,7 @@
         <div class="video-container">
           <iframe
             width="100%"
-            height="75%;"
+            height="85%;"
             src="https://www.youtube.com/embed/7xtB9hcl1R4"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -48,50 +48,63 @@
           </iframe>
 
           <div class="video-details">
-            <h1>
-              The Top 10 NBA Dunks Of All Time
-            </h1>
-            <p>20,469,676 views Feb 9, 2015</p>
-
-            <div class="ic-container">
-              <div class="tooltip">
-                <i class="fas fa-thumbs-up like"></i>42k
-                <span class="tooltiptext">i like it</span>
+            <div class="video-grid1">
+              <div class="maintitle">
+                <span class="info1">The Top 10 NBA Dunks Of All Time</span>
+              </div>
+              <div class="date">
+                <span class="info2">20,469,676 views Feb 9, 2015</span>
               </div>
             </div>
-
-            <div class="ic-container">
-              <div class="tooltip">
-                <i class="fas fa-thumbs-down dislike"></i>11k
-                <span class="tooltiptext">i dislike it</span>
+            <div class="video-grid2">
+              <div class="video-item-grid1">
+                <div class="ic-container">
+                  <div class="tooltip">
+                    <i class="fas fa-thumbs-up like"></i>
+                    <span>42k</span>
+                    <span class="tooltiptext">i like it</span>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="ic-container">
-              <div class="tooltip">
-                <i class="fas fa-share share"></i>SHARE
-                <span class="tooltiptext">SHARE</span>
+              <div class="video-item-grid2">
+                <div class="ic-container">
+                  <div class="tooltip">
+                    <i class="fas fa-thumbs-down dislike"></i>
+                    <span class="t-down">11k</span>
+                    <span class="tooltiptext">i dislike it</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-item-grid3">
+                <div class="ic-container">
+                  <div class="tooltip">
+                    <i class="fas fa-share share"></i>
+                    <span>SHARE</span>
+                    <span class="tooltiptext">SHARE</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="avatar-container">
-          <div class="thubnail-videos">
+
+        <!-- section for the avatar -->
+        <section>
+          <div class="avatar-container">
             <img
               class="avatr"
               src="https://yt3.ggpht.com/a/AATXAJzbjrzU8c5Ni_oxfK5pJvur9mEAVGsb0D_5gc_Waw=s100-c-k-c0xffffffff-no-rj-mo"
               alt="avatar"
             />
-            <h3 class="lineup">
+
+            <h3 class="name">
               House Of Hoops <br />
               <small><small>292K subscribers</small></small>
             </h3>
           </div>
-        </div>
-
-        <div class="button-container">
-          <button class="subscribe" type="submit">SUBSCRIBE</button>
-        </div>
+        </section>
 
         <!-- section for thumbnail -->
 
@@ -118,6 +131,7 @@
             <div class="thumbnail-item">
               <div class="thubnail-videos">
                 <iframe
+                  class="take"
                   width="95%"
                   height="90%"
                   src="https://www.youtube.com/embed/bKOTKHtbM54"
@@ -169,6 +183,9 @@
               </h5>
             </div>
           </aside>
+        </div>
+        <div class="">
+          <button class="subscribe" type="submit">SUBSCRIBE</button>
         </div>
       </div>
     </section>
