@@ -46,18 +46,9 @@ body {
 
 .grid-item3 {
   text-align: right;
-  margin-left: ;
 }
 
 .icon1 {
-  margin-right: 7%;
-}
-
-.icon2 {
-  margin-right: 7%;
-}
-
-.icon3 {
   margin-right: 7%;
 }
 
@@ -131,27 +122,55 @@ body {
   visibility: visible;
 }
 
-.thumbnail-container {
-  display: grid;
-  grid-column: 3/4;
-  grid-row: 1/4;
+.autoplay {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3%;
+  margin-bottom: 3px;
 }
 
-.thumbnail-item {
-  height: 20%;
-}
-.thubnail-videos {
-  display: flex;
+.hr_thumb {
+  color: gray;
+  width: 95%;
   margin-left: 3%;
 }
 
-.thumbnail-container .thumbnail-item h1 {
-  text-align: center;
-  font-weight: bolder;
+.aside {
+  width: 100%;
+  display: flex;
+  margin-top: 2%;
 }
 
-.thumbnail-container .thumbnail-item h5 {
-  text-align: center;
+.thumbs {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+}
+
+.thumb_vids {
+  height: 80%;
+  width: 90%;
+}
+
+/* .thumbnail-item {
+  height: 20%;
+} */
+
+/* .thumbs .thumbs_details h1 {
+  text-align: left;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+} */
+
+.test {
+  text-align: left;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+  font-size: small;
 }
 
 .pclass {
@@ -213,13 +232,13 @@ body {
   color: darkgray;
 }
 
-hr {
+/* hr {
   text-align: left;
   width: 65%;
   margin-left: 0;
   margin-top: 1%;
   margin-bottom: 1%;
-}
+} */
 .show {
   background-color: white;
   border-width: 0;
