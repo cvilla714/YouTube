@@ -56,7 +56,7 @@ body {
   display: grid;
   margin-top: 5%;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   height: 100%;
   padding: 0 3%;
 }
@@ -154,7 +154,14 @@ body {
   width: 90%;
 }
 
-/* .thumbnail-item {
+.thumbs_details {
+  text-align: left;
+  width: 100%;
+}
+
+/* .thumbnail-
+
+item {
   height: 20%;
 } */
 
@@ -180,11 +187,12 @@ body {
 
 .avatar-container {
   display: flex;
-  column-gap: 5%;
+  height: 100%;
+  column-gap: 5px;
 }
 
 .name {
-  padding-top: 10%;
+  margin: 40 0 0;
 }
 
 .avt-grid1 {
@@ -199,17 +207,12 @@ body {
 }
 
 .avatr {
-  border-radius: 70%;
-  margin-left: 2%;
-  margin-top: 7%;
-  width: 25%;
+  width: 10%;
+  height: 100;
 }
 .subscribe {
-  margin-top: 8%;
-  float: right;
   background-color: red;
   border: 2px solid black;
-  padding: 2%;
   color: white;
 }
 
@@ -221,6 +224,7 @@ body {
 }
 
 .cmnts {
+  margin-top: 50%;
   display: flex;
   width: 65%;
   justify-content: start;
@@ -250,4 +254,23 @@ body {
 .lighter_text {
   color: gray;
   font-weight: lighter;
+}
+.btn-share {
+  background-color: white;
+  border: none;
+}
+.number {
+  background-color: #fafafa;
+}
+
+.numberdisplay {
+  display: flex;
+}
+.thesubscribe {
+  margin-left: 5px;
+}
+.takethis {
+  width: 100%;
+  background-color: gray;
+  height: 1%;
 }
