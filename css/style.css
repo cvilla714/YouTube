@@ -71,9 +71,13 @@ body {
 }
 
 .video-details {
-  display: grid;
+  position: relative;
+  bottom: 52%;
   width: 100%;
-  grid-template-columns: repeat(2, 1fr);
+  margin-top: 0;
+  padding: 0;
+  background-color: white;
+  height: fit-content;
 }
 
 .video-grid2 {
@@ -83,13 +87,12 @@ body {
 }
 
 .info1 {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .info2 {
-  font-size: 1rem;
-  margin-left: 2%;
+  font-size: 1.1rem;
 }
 
 .ic-container {
@@ -186,8 +189,9 @@ item {
 }
 
 .avatar-container {
+  margin-top: 3px;
   display: flex;
-  height: 100%;
+  height: 30%;
   column-gap: 5px;
 }
 
@@ -272,5 +276,12 @@ item {
 .takethis {
   width: 100%;
   background-color: gray;
-  height: 1%;
+  height: 0.1px;
+}
+
+.views {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
