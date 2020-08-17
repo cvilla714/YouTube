@@ -3,9 +3,312 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- link from fontawesome to display the icons -->
+    <script src="https://kit.fontawesome.com/e252d07dd4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <h1>Hello Buddy!</h1>
+    <nav class="nav-bar">
+      <div class="grid-container">
+        <div class="grid-item1">
+          <img src="css/pictures/youtube1.png" class="item1" alt="youtube image" />
+        </div>
+
+        <div class="grid-item2">
+          <input class="txt" type="text" placeholder="Search" />
+          <button class="btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div class="grid-item3">
+          <i class="fas fa-video icon1"></i>
+          <i class="fas fa-th icon1"></i>
+          <i class="far fa-bell icon1"></i>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <!-- section for the video -->
+    <section>
+      <div class="main-container">
+        <div class="video-container">
+          <iframe
+            class="main-video"
+            src="https://www.youtube.com/embed/7xtB9hcl1R4"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+          <div class="video-details">
+            <div id="video-grid1">
+              <div>
+                <span class="info1">The Top 10 NBA Dunks Of All Time</span>
+              </div>
+            </div>
+
+            <div class="avatar-container">
+              <img
+                class="avatr"
+                src="https://yt3.ggpht.com/a/AATXAJzbjrzU8c5Ni_oxfK5pJvur9mEAVGsb0D_5gc_Waw=s100-c-k-c0xffffffff-no-rj-mo"
+                alt="avatar"
+              />
+              <div class="thesubscribe">
+                <h3 class="name">House Of Hoops <br /></h3>
+                <div class="numberdisplay">
+                  <button class="subscribe" type="submit">SUBSCRIBE</button>
+                  <button>292k</button>
+                </div>
+              </div>
+
+              <div class="views">
+                <span class="info2 lighter_text">20,469,676 views</span>
+              </div>
+            </div>
+            <hr class="main_hr" />
+            <div class="lik_dis">
+              <div class="symbols">
+                <div class="lighter_text">
+                  <i class="fas fa-plus"></i>
+                  <span> Add To</span>
+                </div>
+                <div class="symbols">
+                  <div class="tooltip">
+                    <button class="btn-share lighter_text"><i class="fas fa-share"></i> SHARE</button>
+                    <span class="tooltiptext">SHARE</span>
+                  </div>
+                </div>
+                <div class="symbols lighter_text"><i class="fas fa-ellipsis-h"></i> More</div>
+              </div>
+              <div class="btns lighter_text">
+                <div class="tooltip">
+                  <i class="fas fa-thumbs-up like"></i>
+                  <span class="lighter_text">42k</span>
+                  <span class="tooltiptext">i like it</span>
+                </div>
+                <div class="tooltip">
+                  <i class="fas fa-thumbs-down dislike"></i>
+                  <span class="lighter_text">11k</span>
+                  <span class="tooltiptext">i dislike it</span>
+                </div>
+              </div>
+            </div>
+            <hr class="takethis" />
+          </div>
+          <!-- Section for description -->
+          <div class="cmnts">
+            <p class="description">
+              The NBA is the premier professional basketball league in the United States and Canada. The league is truly global, with games and
+              programming in 215 countries and territories in 47 languages, as well as rosters that currently feature 85 international players from 36
+              countries and territories. For the 2012-13 season, each of the league's 30 teams will play 82 regular-season games, followed by a
+              postseason for those that qualify. The NBA consists of the following teams: Atlanta Hawks; Boston Celtics; Brooklyn Nets; Charlotte
+              Bobcats; Chicago Bulls; Cleveland Cavaliers; Dallas Mavericks; Denver Nuggets; Detroit Pistons; Golden State Warriors; Houston Rockets;
+              Indiana Pacers; Los Angeles Clippers; Los Angeles Lakers; Memphis Grizzlies; Miami Heat; Milwaukee Bucks; Minnesota Timberwolves; New
+              Orleans Hornets; New York Knicks; Oklahoma City Thunder; Orlando Magic; Philadelphia 76ers; Phoenix Suns; Portland Trail Blazers;
+              Sacramento Kings; San Antonio Spurs; Toronto Raptors; Utah Jazz; Washington Wizards. The NBA offers real time access to live regular
+              season NBA games with a subscription to NBA LEAGUE PASS, available globally for TV, broadband, and mobile. Real-time Stats, Scores,
+              Highlights and more are available to fans on web and mobile with NBA Game Time.
+              <br />
+              <button class="show">Show More</button>
+            </p>
+          </div>
+        </div>
+
+        <!-- section for thumbnail -->
+
+        <div id="thumbnail-container">
+          <div class="autoplay">
+            <span>Up Next</span>
+            <span class="lighter_text">Autoplay<i class="fas fa-toggle-on"></i></span>
+          </div>
+          <aside>
+            <div class="aside">
+              <div class="thumbs">
+                <iframe
+                  src="https://www.youtube.com/embed/WaYAhkH2cJM"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="thumb_vids"
+                ></iframe>
+              </div>
+
+              <div class="thumbs">
+                <div class="thumbs_details">
+                  <h1 class="video_title">
+                    TOP 10 MOST EPIC NBA MOMENTS EVER
+                  </h1>
+                  <h5 class="lighter_text">
+                    Bang boy
+                    <br />
+                    25,085,524 views
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <hr class="hr_thumb" />
+
+            <div class="aside">
+              <div class="thumbs">
+                <iframe
+                  src="https://www.youtube.com/embed/bKOTKHtbM54"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="thumb_vids"
+                ></iframe>
+              </div>
+
+              <div class="thumbs">
+                <div class="thumbs_details">
+                  <h1 class="test">
+                    50 Famous Goals ● Impossible To Forget
+                  </h1>
+                  <h5 class="lighter_text">
+                    Wrzzer
+                    <br />
+                    25,524 views
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="aside">
+              <div class="thumbs">
+                <iframe
+                  class="thumb_vids"
+                  src="https://www.youtube.com/embed/va62NrZGm8Q"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <div class="thumbs">
+                <div class="thumbs_details">
+                  <h1 class="test">
+                    Top 10 Amaizing Moments in Cricket History
+                  </h1>
+                  <h5 class="lighter_text">
+                    The KAPIL SHARMA Show
+                    <br />
+                    230,229 views
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="aside">
+              <div class="thumbs">
+                <iframe
+                  class="thumb_vids"
+                  src="https://www.youtube.com/embed/f_7YBHbDpDM"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <div class="thumbs">
+                <div class="thumbs_details">
+                  <h1 class="test">
+                    Greatest Moments In Men's Tennis
+                  </h1>
+                  <h5 class="lighter_text">
+                    NOZ
+                    <br />
+                    230,229,212 views
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="aside">
+              <div class="thumbs">
+                <iframe
+                  src="https://www.youtube.com/embed/WaYAhkH2cJM"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="thumb_vids"
+                ></iframe>
+              </div>
+
+              <div class="thumbs">
+                <div class="thumbs_details">
+                  <h1 class="test">
+                    TOP 10 MOST EPIC NBA MOMENTS EVER
+                  </h1>
+                  <h5 class="lighter_text">
+                    Bang boy
+                    <br />
+                    25,085,524 views
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="aside">
+              <div class="thumbs">
+                <iframe
+                  src="https://www.youtube.com/embed/WaYAhkH2cJM"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="thumb_vids"
+                ></iframe>
+              </div>
+
+              <div class="thumbs">
+                <div class="thumbs_details">
+                  <h1 class="test">
+                    TOP 10 MOST EPIC NBA MOMENTS EVER
+                  </h1>
+                  <h5 class="lighter_text">
+                    Bang boy
+                    <br />
+                    25,085,524 views
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="aside">
+              <div class="thumbs">
+                <iframe
+                  src="https://www.youtube.com/embed/WaYAhkH2cJM"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="thumb_vids"
+                ></iframe>
+              </div>
+
+              <div class="thumbs">
+                <div class="thumbs_details">
+                  <h1 class="test">
+                    TOP 10 MOST EPIC NBA MOMENTS EVER
+                  </h1>
+                  <h5 class="lighter_text">
+                    Bang boy
+                    <br />
+                    25,085,524 views
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is asection for footer -->
+    <footer>
+      <div class="foter">
+        <h1>This Project was Developed by</h1>
+        <h3>DevHamayun And DevKC</h3>
+      </div>
+    </footer>
   </body>
 </html>
