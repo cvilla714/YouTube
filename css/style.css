@@ -95,14 +95,9 @@ body {
   font-size: 1.1rem;
 }
 
-.ic-container {
-  display: flex;
-}
-
 .tooltip {
   position: relative;
   display: inline-block;
-  margin-left: 42%;
 }
 
 .tooltip .tooltiptext {
@@ -221,18 +216,18 @@ item {
 }
 
 .foter {
-  margin-top: 25%;
-  height: 20vh;
+  margin-top: 35%;
+  height: 15vh;
   text-align: center;
   background-color: grey;
 }
 
 .cmnts {
-  margin-top: 50%;
   display: flex;
-  width: 65%;
+  width: 100%;
   justify-content: start;
-  padding: 1%;
+  position: relative;
+  bottom: 86px;
 }
 
 .des {
@@ -276,7 +271,6 @@ item {
 .takethis {
   width: 100%;
   background-color: gray;
-  height: 0.1px;
 }
 
 .views {
@@ -284,4 +278,20 @@ item {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+}
+
+.lik_dis {
+  display: flex;
+}
+
+.symbols {
+  display: flex;
+  column-gap: 5px;
+}
+
+.btns {
+  width: 78%;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 15px;
 }
