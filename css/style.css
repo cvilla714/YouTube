@@ -9,7 +9,6 @@ body {
   height: 8vh;
   width: 100%;
   background-color: #ffffff;
-  /* background: linear-gradient(to right, #81bae6, yellow); */
 }
 
 .grid-container {
@@ -29,9 +28,12 @@ body {
 }
 
 .grid-item2 {
-  /* text-align: center; */
   width: 100%;
   display: flex;
+}
+.main-video {
+  width: 100%;
+  height: 50%;
 }
 
 .txt {
@@ -71,19 +73,11 @@ body {
 }
 
 .video-details {
-  position: relative;
-  bottom: 52%;
   width: 100%;
   margin-top: 0;
   padding: 0;
   background-color: white;
   height: fit-content;
-}
-
-.video-grid2 {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .info1 {
@@ -157,30 +151,12 @@ body {
   width: 100%;
 }
 
-/* .thumbnail-
-
-item {
-  height: 20%;
-} */
-
-/* .thumbs .thumbs_details h1 {
-  text-align: left;
-  font-weight: bolder;
-  padding: 0;
-  margin: 0;
-} */
-
-.test {
+.video_title {
   text-align: left;
   font-weight: bolder;
   padding: 0;
   margin: 0;
   font-size: small;
-}
-
-.pclass {
-  width: 15%;
-  height: 10%;
 }
 
 .avatar-container {
@@ -192,17 +168,6 @@ item {
 
 .name {
   margin: 40 0 0;
-}
-
-.avt-grid1 {
-  display: grid;
-  width: 100%;
-  grid-column: 1/3;
-}
-
-.avt-grid2 {
-  display: grid;
-  grid-column: 3/5;
 }
 
 .avatr {
@@ -226,22 +191,14 @@ item {
   display: flex;
   width: 100%;
   justify-content: start;
-  position: relative;
-  bottom: 86px;
+  background-color: white;
 }
 
-.des {
+.description {
   font-size: larger;
   color: darkgray;
 }
 
-/* hr {
-  text-align: left;
-  width: 65%;
-  margin-left: 0;
-  margin-top: 1%;
-  margin-bottom: 1%;
-} */
 .show {
   background-color: white;
   border-width: 0;
@@ -268,7 +225,7 @@ item {
 .thesubscribe {
   margin-left: 5px;
 }
-.takethis {
+.main_hr {
   width: 100%;
   background-color: gray;
 }
@@ -282,6 +239,7 @@ item {
 
 .lik_dis {
   display: flex;
+  justify-content: flex-end;
 }
 
 .symbols {
