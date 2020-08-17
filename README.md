@@ -4,7 +4,7 @@
 
 YouTube Clone
 
-![screenshot](./css/pictures/screenshot.png)
+![screenshot](./css/pictures/mainss.png)
 
 Additional description about the project and its features.
 
