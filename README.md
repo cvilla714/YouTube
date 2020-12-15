@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://cvilla714.github.io/YouTube/)
 
-👤 **KC
+👤 **KC**
 
 - Github: [@githubhandle](https://github.com/cvilla714)
 - Twitter: [@twitterhandle](https://twitter.com/kckeyti)
